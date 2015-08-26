@@ -1,0 +1,27 @@
+.app {
+    height: calc(100% - 0px);
+    position: relative;
+    margin: 0;
+    top: 0px;
+    z-index: 2;
+    border-radius: 0;
+    background-image: none;
+    box-shadow: none;
+}
+
+.app, .app.three {
+    width: 100%;
+}
+
+.intro-image {
+    opacity: 0;
+}
+
+.app-wrapper::before {
+    opacity: 0;
+}
+
+.drawer-container-mid, .drawer-container-right, .pane-chat, .pane-intro {
+    width: 100%;
+}
+
